@@ -1,0 +1,15 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <b>Name:</b>
+  <%= @entity.name %>
+</p>
+
+<p>
+  <b>Parent:</b>
+  <%= @entity.parent_id %>
+</p>
+
+
+<%= link_to 'Edit', edit_entity_path(@entity) %> |
+<%= link_to 'Back', entities_path %>
