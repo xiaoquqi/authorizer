@@ -6,5 +6,6 @@ class CreateEntities < ActiveRecord::Migration
 
       t.timestamps
     end
+    add_index :entities, :parent_id
   end
 end

@@ -27,6 +27,10 @@ gem 'jquery-rails'
 # http://foundation.zurb.com/docs/gems.php#rails
 gem 'zurb-foundation', :group => :assets
 
+# Acts as tree
+# https://github.com/amerine/acts_as_tree
+gem 'acts_as_tree', '~> 1.1.0'
+
 # To use ActiveModel has_secure_password
 # gem 'bcrypt-ruby', '~> 3.0.0'
 
