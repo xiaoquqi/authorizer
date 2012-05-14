@@ -12,5 +12,12 @@
 //
 //= require jquery
 //= require jquery_ujs
+//= require jquery.ui.all
 //= require foundation
+//= require jquery.dynatree.min
 //= require_tree .
+
+$(document).ready( function() {
+    $("#tree").dynatree({
+    });
+}); // end document ready
